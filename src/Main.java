@@ -21,6 +21,7 @@ public class Main {
         System.out.println("***\n\n ANAIS NIN \"RISK\" ");
         System.out.println(p + "\n\n***\n\n");
         
+        System.out.println("Word at (row=2, col=1) is " + p.getWord(2,1));
         System.out.println("The longest word in the poem: " + p.findLongest());
         String str = "buddy";
         System.out.println("The word " + str + " appears in the poem: " + p.contains(str));
